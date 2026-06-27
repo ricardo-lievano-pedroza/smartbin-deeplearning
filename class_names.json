@@ -1,0 +1,21 @@
+{
+  "class_names": [
+    "cardboard",
+    "glass",
+    "metal",
+    "paper",
+    "plastic",
+    "trash"
+  ],
+  "img_size": [
+    224,
+    224
+  ],
+  "recyclable": [
+    "cardboard",
+    "glass",
+    "metal",
+    "paper",
+    "plastic"
+  ]
+}
