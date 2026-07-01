@@ -73,7 +73,7 @@ st.markdown('<p class="tagline">Snap a photo of any item — get the right bin i
 # ----------------------------------------------------------------------------- #
 @st.cache_resource(show_spinner="Loading model…")
 def load_assets():
-    model = tf.keras.models.load_model("garbage_model.keras")
+    model = tf.keras.models.load_model("garbage_model_finetuned.keras")
     with open("class_names.json") as f:
         cfg = json.load(f)
     return model, cfg
